@@ -7,11 +7,10 @@
     "client"
   ],
   "scripts": {
-    "start": "yarn workspace client start & yarn workspace server start",
-    "dev": "yarn workspace client dev & yarn workspace server dev",
-    "client:build": "yarn workspace client build",
-    "client:dev": "yarn workspace client dev",
-    "server:build": "yarn workspace server build"
+    "dev": "yarn workspace client start && yarn workspace server dev",
+    "lint": "yarn workspace client lint && yarn workspace server lint",
+    "start": "yarn workspace client start && yarn workspace server start",
+    "build": "yarn workspace client build && yarn workspace server build"
   },
   "license": "MIT"
 }
