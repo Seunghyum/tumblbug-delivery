@@ -1,4 +1,5 @@
 import * as express from 'express';
+import * as addressesJson from './data/addresses.json';
 class App {
   public application: express.Application;
   constructor() {
@@ -7,6 +8,6 @@ class App {
 }
 const app = new App().application;
 app.get('/', (req: express.Request, res: express.Response) => {
-  res.send('start');
+  res.send(addressesJson);
 });
 app.listen(4000, () => console.log('start'));

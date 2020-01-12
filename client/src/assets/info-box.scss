@@ -1,0 +1,27 @@
+.info-box {
+  padding:20px;
+  border-radius: 8px;
+  border: solid 1px #979797;
+  &--header {
+    margin-bottom: 14px;
+    font-size: 17px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3e3e3e;
+  }
+  &--body {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    color: #989898;
+    a {
+      color: #4ea3f8;
+    }
+  }
+}

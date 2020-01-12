@@ -1,0 +1,50 @@
+// inti layout
+@import './reset.scss';
+@import './simple-grid.scss';
+
+// UI components
+@import './tab.scss';
+@import './card-list.scss';
+@import './info-box.scss';
+
+// util
+@import './util.scss';
+
+
+
+
+header {
+  margin-top: 50px;
+  margin-bottom: 55px;
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 60px;
+  }
+}
+
+main {
+  .subtitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3e3e3e;
+  }
+  .card-list {
+    width: 69%;
+    display: inline-block;
+  }
+  .info-box {
+    width: 22%;
+    float: right;
+  }
+}
