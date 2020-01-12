@@ -1,0 +1,17 @@
+{
+  "name": "tumblbug-delivery",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "start": "yarn workspace client start & yarn workspace server start",
+    "dev": "yarn workspace client dev & yarn workspace server dev",
+    "client:build": "yarn workspace client build",
+    "client:dev": "yarn workspace client dev",
+    "server:build": "yarn workspace server build"
+  },
+  "license": "MIT"
+}
